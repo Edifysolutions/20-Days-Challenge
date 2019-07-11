@@ -1,0 +1,147 @@
+
+h1 {
+  font-size: 5vw;
+  color: rgb(0, 51, 128);
+
+}
+
+button {
+  width: 15vw;
+  padding: 1.5vw;
+  margin: 1.5vw;
+  background: rgb(0, 51, 128);
+  border: 3px solid rgb(0, 51, 128);
+  color: black;
+  font-size: 3vw;
+  
+}
+
+button:hover {
+  background: white;
+  color: rgb(0, 51, 128);
+}
+
+#player {
+  width: 50vw;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 50vw;
+}
+
+#computer {
+  width: 50vw;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  bottom: 0;
+  right: 0;
+}
+
+#start {
+  border: 3px solid rgb(0, 51, 128);
+  width: 25vw;
+  height: 25vw;
+  padding: 5vw;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#buttons {
+  border: 3px solid rgb(0, 51, 128);
+  width: 25vw;
+  height: 25vw;
+  padding: 5vw;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#playAgain {
+  border: 5px solid rgb(0, 51, 128);
+  width: 25vw;
+  height: 25vw;
+  padding: 5vw;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 8vw;
+    
+  }
+
+  button {
+    width: 30vw;
+    padding: 3vw;
+    margin: 3vw;
+    background: rgb(0, 51, 128);
+    border: 2px solid rgb(0, 51, 128);
+    color: white;
+    font-size: 4vw;
+  }
+
+  #start {
+    border: 5px solid rgb(0, 51, 128);
+    width: 50vw;
+    height: 50vw;
+    padding: 10vw;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  #buttons {
+    border: 2px solid rgb(0, 51, 128);
+    width: 50vw;
+    height: 50vw;
+    padding: 10vw;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  #playAgain {
+    border: 5px solid rgb(0, 51, 128);
+    width: 50vw;
+    height: 50vw;
+    padding: 10vw;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
